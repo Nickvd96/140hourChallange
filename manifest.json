@@ -1,7 +1,7 @@
 {
     "name": "PWA Walking app",
     "short_name": "Walking App",
-    "start_url": ".",
+    "start_url": "https://i356100.hera.fhict.nl/",
     "background_color": "#6dcdb1",
     "theme_color": "#009578",
     "display": "standalone",
