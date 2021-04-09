@@ -1,3 +1,62 @@
-body {
-    background: #eeeeee;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0%;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
+body {
+    background: #ffffff;
+}
+
+
+ul {
+    padding-left: 3%;
+    list-style-type: none;
+    
+}
+
+ul li {
+    box-sizing: border-box;
+    width: 95%;
+    height: 7.6em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgb(0 0 0 / 20%);
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+   
+}
+
+ul li:nth-child(odd) {
+    background: linear-gradient(to right, orange, tomato);
+    text-align: center;
+
+}
+
+ul li:nth-child(even) {
+    background: linear-gradient(to left, orange, tomato);
+    text-align: center;
+ 
+}
+
+
+
