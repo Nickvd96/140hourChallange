@@ -1,0 +1,7 @@
+{
+    "name": "PWA Walking app",
+    "short_name": "Walking App",
+    "start_url": ".",
+    "background_color": "#6dcdb1"
+
+}
